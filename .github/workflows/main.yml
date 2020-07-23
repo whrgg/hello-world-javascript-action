@@ -6,9 +6,8 @@ jobs:
     name: A job to say hello
     steps:
     - name: Hello world action step
-      id: test
-      #uses: blak-kong/hello-world-javascript-action@v1
-      uses: ./
+      id: hello
+      uses: actions/hello-world-javascript-action@v1
       with:
         who-to-greet: '测试'
     # Use the output from the `hello` step
