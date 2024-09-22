@@ -10,4 +10,4 @@ outputs: # 输出类
     description: '测试输出描述'
 runs: # 运行
   using: 'node12' # 使用 node12 运行
-  main: '/1/index.js' # 运行入口
+  main: 'index.js' # 运行入口
